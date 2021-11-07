@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34790F28DA69C0B2DF2E107C /* Pods_UpHeatPro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 684A62BD53AABE297173AC62 /* Pods_UpHeatPro.framework */; };
+		F05115AC27329EF6003AE11A /* UpHeatProApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05115AB27329EF6003AE11A /* UpHeatProApp.swift */; };
+		F05115AE27329EF6003AE11A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05115AD27329EF6003AE11A /* ContentView.swift */; };
+		F05115B027329EF9003AE11A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F05115AF27329EF9003AE11A /* Assets.xcassets */; };
+		F05115B327329EF9003AE11A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F05115B227329EF9003AE11A /* Preview Assets.xcassets */; };
+		F05115BA2732A350003AE11A /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05115B92732A350003AE11A /* Home.swift */; };
+		F05115BC2732A39D003AE11A /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05115BB2732A39D003AE11A /* Login.swift */; };
+		F05B54E22732B9C200DA243C /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05B54E12732B9C200DA243C /* SignUp.swift */; };
+		F05B54E42732CA5C00DA243C /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05B54E32732CA5C00DA243C /* AlertView.swift */; };
+		FA5DEA0B2733C9C7000FCAA0 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5DEA0A2733C9C6000FCAA0 /* Item.swift */; };
+		FA5DEA0F2733CB00000FCAA0 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5DEA0E2733CB00000FCAA0 /* CardView.swift */; };
+		FA5DEA132733CE43000FCAA0 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5DEA122733CE43000FCAA0 /* DashboardView.swift */; };
+		FA5DEA152733EC64000FCAA0 /* CustomCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5DEA142733EC64000FCAA0 /* CustomCorner.swift */; };
+		FA5DEA1D27353215000FCAA0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA5DEA1C27353214000FCAA0 /* GoogleService-Info.plist */; };
+		FA5DEA2027353EA4000FCAA0 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5DEA1F27353EA4000FCAA0 /* AppViewModel.swift */; };
+		FA5DEA22273548E2000FCAA0 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5DEA21273548E2000FCAA0 /* HomeScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4937004B3A88ED18DBCBA968 /* Pods-UpHeatPro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UpHeatPro.release.xcconfig"; path = "Target Support Files/Pods-UpHeatPro/Pods-UpHeatPro.release.xcconfig"; sourceTree = "<group>"; };
+		684A62BD53AABE297173AC62 /* Pods_UpHeatPro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UpHeatPro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D25EF69D100F710B55B468BF /* Pods-UpHeatPro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UpHeatPro.debug.xcconfig"; path = "Target Support Files/Pods-UpHeatPro/Pods-UpHeatPro.debug.xcconfig"; sourceTree = "<group>"; };
+		F05115A827329EF6003AE11A /* UpHeatPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UpHeatPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F05115AB27329EF6003AE11A /* UpHeatProApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpHeatProApp.swift; sourceTree = "<group>"; };
+		F05115AD27329EF6003AE11A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F05115AF27329EF9003AE11A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F05115B227329EF9003AE11A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F05115B92732A350003AE11A /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		F05115BB2732A39D003AE11A /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		F05B54E12732B9C200DA243C /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		F05B54E32732CA5C00DA243C /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		FA5DEA0A2733C9C6000FCAA0 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		FA5DEA0E2733CB00000FCAA0 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		FA5DEA122733CE43000FCAA0 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		FA5DEA142733EC64000FCAA0 /* CustomCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCorner.swift; sourceTree = "<group>"; };
+		FA5DEA1C27353214000FCAA0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FA5DEA1F27353EA4000FCAA0 /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
+		FA5DEA21273548E2000FCAA0 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F05115A527329EF6003AE11A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34790F28DA69C0B2DF2E107C /* Pods_UpHeatPro.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2388F31FF7F14E2E658E9317 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				684A62BD53AABE297173AC62 /* Pods_UpHeatPro.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8BF0C0B566950903787B8E2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D25EF69D100F710B55B468BF /* Pods-UpHeatPro.debug.xcconfig */,
+				4937004B3A88ED18DBCBA968 /* Pods-UpHeatPro.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F051159F27329EF6003AE11A = {
+			isa = PBXGroup;
+			children = (
+				F05115AA27329EF6003AE11A /* UpHeatPro */,
+				F05115A927329EF6003AE11A /* Products */,
+				C8BF0C0B566950903787B8E2 /* Pods */,
+				2388F31FF7F14E2E658E9317 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F05115A927329EF6003AE11A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F05115A827329EF6003AE11A /* UpHeatPro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F05115AA27329EF6003AE11A /* UpHeatPro */ = {
+			isa = PBXGroup;
+			children = (
+				FA5DEA1C27353214000FCAA0 /* GoogleService-Info.plist */,
+				F05115AB27329EF6003AE11A /* UpHeatProApp.swift */,
+				FA5DEA1E27353E77000FCAA0 /* View Model */,
+				FA5DEA102733CC42000FCAA0 /* Model */,
+				FA5DEA112733CCD1000FCAA0 /* View */,
+				F05115AF27329EF9003AE11A /* Assets.xcassets */,
+				F05115B127329EF9003AE11A /* Preview Content */,
+			);
+			path = UpHeatPro;
+			sourceTree = "<group>";
+		};
+		F05115B127329EF9003AE11A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F05115B227329EF9003AE11A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA5DEA102733CC42000FCAA0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FA5DEA0A2733C9C6000FCAA0 /* Item.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FA5DEA112733CCD1000FCAA0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F05115B92732A350003AE11A /* Home.swift */,
+				FA5DEA0E2733CB00000FCAA0 /* CardView.swift */,
+				F05B54E32732CA5C00DA243C /* AlertView.swift */,
+				F05B54E12732B9C200DA243C /* SignUp.swift */,
+				F05115BB2732A39D003AE11A /* Login.swift */,
+				F05115AD27329EF6003AE11A /* ContentView.swift */,
+				FA5DEA122733CE43000FCAA0 /* DashboardView.swift */,
+				FA5DEA142733EC64000FCAA0 /* CustomCorner.swift */,
+				FA5DEA21273548E2000FCAA0 /* HomeScreen.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA5DEA1E27353E77000FCAA0 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				FA5DEA1F27353EA4000FCAA0 /* AppViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F05115A727329EF6003AE11A /* UpHeatPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F05115B627329EF9003AE11A /* Build configuration list for PBXNativeTarget "UpHeatPro" */;
+			buildPhases = (
+				BA132051E36D735638261282 /* [CP] Check Pods Manifest.lock */,
+				F05115A427329EF6003AE11A /* Sources */,
+				F05115A527329EF6003AE11A /* Frameworks */,
+				F05115A627329EF6003AE11A /* Resources */,
+				D202DAABBB4E2E85387EF69F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UpHeatPro;
+			productName = UpHeatPro;
+			productReference = F05115A827329EF6003AE11A /* UpHeatPro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F05115A027329EF6003AE11A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					F05115A727329EF6003AE11A = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = F05115A327329EF6003AE11A /* Build configuration list for PBXProject "UpHeatPro" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F051159F27329EF6003AE11A;
+			productRefGroup = F05115A927329EF6003AE11A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F05115A727329EF6003AE11A /* UpHeatPro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F05115A627329EF6003AE11A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F05115B327329EF9003AE11A /* Preview Assets.xcassets in Resources */,
+				F05115B027329EF9003AE11A /* Assets.xcassets in Resources */,
+				FA5DEA1D27353215000FCAA0 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BA132051E36D735638261282 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UpHeatPro-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D202DAABBB4E2E85387EF69F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UpHeatPro/Pods-UpHeatPro-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UpHeatPro/Pods-UpHeatPro-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UpHeatPro/Pods-UpHeatPro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F05115A427329EF6003AE11A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F05115AE27329EF6003AE11A /* ContentView.swift in Sources */,
+				FA5DEA152733EC64000FCAA0 /* CustomCorner.swift in Sources */,
+				F05B54E42732CA5C00DA243C /* AlertView.swift in Sources */,
+				F05115BA2732A350003AE11A /* Home.swift in Sources */,
+				F05115AC27329EF6003AE11A /* UpHeatProApp.swift in Sources */,
+				FA5DEA132733CE43000FCAA0 /* DashboardView.swift in Sources */,
+				FA5DEA0B2733C9C7000FCAA0 /* Item.swift in Sources */,
+				F05115BC2732A39D003AE11A /* Login.swift in Sources */,
+				FA5DEA22273548E2000FCAA0 /* HomeScreen.swift in Sources */,
+				FA5DEA2027353EA4000FCAA0 /* AppViewModel.swift in Sources */,
+				FA5DEA0F2733CB00000FCAA0 /* CardView.swift in Sources */,
+				F05B54E22732B9C200DA243C /* SignUp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F05115B427329EF9003AE11A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F05115B527329EF9003AE11A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F05115B727329EF9003AE11A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D25EF69D100F710B55B468BF /* Pods-UpHeatPro.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UpHeatPro/Preview Content\"";
+				DEVELOPMENT_TEAM = A5473VPV64;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.upheatpro.UpHeatPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F05115B827329EF9003AE11A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4937004B3A88ED18DBCBA968 /* Pods-UpHeatPro.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UpHeatPro/Preview Content\"";
+				DEVELOPMENT_TEAM = A5473VPV64;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.upheatpro.UpHeatPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F05115A327329EF6003AE11A /* Build configuration list for PBXProject "UpHeatPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F05115B427329EF9003AE11A /* Debug */,
+				F05115B527329EF9003AE11A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F05115B627329EF9003AE11A /* Build configuration list for PBXNativeTarget "UpHeatPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F05115B727329EF9003AE11A /* Debug */,
+				F05115B827329EF9003AE11A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F05115A027329EF6003AE11A /* Project object */;
+}
